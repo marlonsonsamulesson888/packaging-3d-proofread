@@ -1,0 +1,4 @@
+interface:
+  display_name: "包装3D图文防错"
+  short_description: "对照平面母版检查盒盖图案与文字的方向位置，并结合错误库核对多视角输出"
+  default_prompt: "使用 $packaging-3d-proofread，对照已确认平面稿检查这些包装3D图的文字、图案方向位置和多视角一致性，保留实际证据与未确认项。"

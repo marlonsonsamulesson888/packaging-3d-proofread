@@ -1,0 +1,35 @@
+{
+  "job_id": "synthetic-demo",
+  "masters": [
+    {
+      "id": "master",
+      "path": "master.svg"
+    }
+  ],
+  "panels": [
+    {
+      "id": "lid",
+      "master_id": "master",
+      "baseline_status": "confirmed",
+      "baseline_evidence": "Synthetic demo specification only, not customer approval",
+      "reading_direction": "left-to-right",
+      "placement_rule": "center on lid"
+    }
+  ],
+  "views": [
+    {
+      "id": "top",
+      "path": "view.svg",
+      "panels": [
+        "lid"
+      ],
+      "master_ids": [
+        "master"
+      ]
+    }
+  ],
+  "protected": [
+    "DEMO BOX text"
+  ],
+  "error_ids": []
+}
